@@ -97,7 +97,7 @@ void readline(int socket_fd, uint8_t *line)
 			
 			if(c == '\n')
 			{
-				line[i - 1] = '\0';
+				line[i] = '\0';
 				break;
 			}
 		}
